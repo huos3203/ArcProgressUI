@@ -20,6 +20,17 @@ it, simply add the following line to your Podfile:
 pod 'ArcProgressUI'
 ```
 
+## 使用
+```objc
+#import "ArcProgressView.h"
+NSArray *viewArr = [[NSBundle mainBundle] loadNibNamed:@"ArcProgressView" owner:nil options:nil];
+UIView *arcView = viewArr.lastObject;
+arcView.backgroundColor = [UIColor redColor];
+[self.view addSubview:arcView];
+```
+
+
+
 ## Author
 
 huo3203@hotmail.com, 724987481

@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ArcProgressUI/Classes/**/*'
+s.source_files = 'ArcProgressUI/Classes/**/*' #*/*.{h,m,swift}
   
-  # s.resource_bundles = {
-  #   'ArcProgressUI' => ['ArcProgressUI/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'ArcProgressUI' => ['ArcProgressUI/Assets/*.{storyboard,xib,png}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

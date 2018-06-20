@@ -17,7 +17,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *viewArr = [[NSBundle mainBundle] loadNibNamed:@"ArcProgressView" owner:nil options:nil];
+    UIView *arcView = viewArr.lastObject;
+    arcView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:arcView];
 }
 
 - (void)didReceiveMemoryWarning
