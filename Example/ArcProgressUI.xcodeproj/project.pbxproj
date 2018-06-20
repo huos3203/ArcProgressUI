@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05F32DF120DA00580073C616 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DED20DA00580073C616 /* ReplaceMe.m */; };
+		05F32DF820DA00ED0073C616 /* ArcProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DF720DA00ED0073C616 /* ArcProgressView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05F32DED20DA00580073C616 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		05F32DF620DA00ED0073C616 /* ArcProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcProgressView.h; sourceTree = "<group>"; };
+		05F32DF720DA00ED0073C616 /* ArcProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcProgressView.m; sourceTree = "<group>"; };
 		1635BF7E131A9AACA404F735 /* Pods_ArcProgressUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcProgressUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D407190A145ECDFF5A1217 /* Pods-ArcProgressUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Tests/Pods-ArcProgressUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B85145CB0C2F23ADBA46BEE /* Pods-ArcProgressUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Tests/Pods-ArcProgressUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,10 +68,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96038E93823A1741A1DFCD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BDA33F912AA75B5F12FE6846 /* ArcProgressUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ArcProgressUI.podspec; path = ../ArcProgressUI.podspec; sourceTree = "<group>"; };
+		96038E93823A1741A1DFCD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BDA33F912AA75B5F12FE6846 /* ArcProgressUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ArcProgressUI.podspec; path = ../ArcProgressUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9D6E89EA46B0B267DD2D9A2 /* Pods_ArcProgressUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcProgressUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE984EEF0EBC91D83AEBFA74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE984EEF0EBC91D83AEBFA74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F32DEB20DA00580073C616 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05F32DED20DA00580073C616 /* ReplaceMe.m */,
+				05F32DF620DA00ED0073C616 /* ArcProgressView.h */,
+				05F32DF720DA00ED0073C616 /* ArcProgressView.m */,
+			);
+			name = Classes;
+			path = ../ArcProgressUI/Classes;
+			sourceTree = "<group>";
+		};
+		05F32DEE20DA00580073C616 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = ../ArcProgressUI/Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +202,8 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				05F32DEE20DA00580073C616 /* Assets */,
+				05F32DEB20DA00580073C616 /* Classes */,
 				BDA33F912AA75B5F12FE6846 /* ArcProgressUI.podspec */,
 				FE984EEF0EBC91D83AEBFA74 /* README.md */,
 				96038E93823A1741A1DFCD8F /* LICENSE */,
@@ -406,8 +432,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F32DF120DA00580073C616 /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* JHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JHViewController.m in Sources */,
+				05F32DF820DA00ED0073C616 /* ArcProgressView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
