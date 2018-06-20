@@ -7,6 +7,13 @@
 //
 
 #import "ArcProgressView.h"
+#import "ArcTitleLabel.h"
+
+@interface ArcProgressView()
+
+@property (strong, nonatomic) IBOutlet ArcTitleLabel *ibTitleLabel;
+
+@end
 
 @implementation ArcProgressView
 
@@ -41,7 +48,7 @@ void drawArcTrack()
     //1.4 设置颜色
     [[UIColor blackColor] set];
     //2.设置路径
-    CGContextAddArc(ctx, _arcW/2 , _arcH/2, 80, -5*M_PI_4, M_PI_4, 0);
+    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcW/2 - 60, -5*M_PI_4, M_PI_4, 0);
     //3.绘制
     CGContextStrokePath(ctx);
 }
@@ -80,7 +87,6 @@ void drawArcTrack()
     _num = [text.userInfo[@"num"] intValue];
     
     [self setNeedsDisplay];
-    
 }
 
 -(void)change

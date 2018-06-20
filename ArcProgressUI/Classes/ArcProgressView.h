@@ -6,9 +6,7 @@
 //Copyright © 2018年 huo3203@hotmail.com. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-#define kScreenW [[UIScreen mainScreen] bounds].size.width
 
-#define kScreenH [[UIScreen mainScreen] bounds].size.height
 IB_DESIGNABLE
 @interface ArcProgressView : UIView
 
