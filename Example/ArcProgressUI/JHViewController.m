@@ -7,6 +7,7 @@
 //
 
 #import "JHViewController.h"
+#import "ArcProgressView.h"
 
 @interface JHViewController ()
 
@@ -18,10 +19,7 @@
 {
     [super viewDidLoad];
     
-    NSArray *viewArr = [[NSBundle mainBundle] loadNibNamed:@"ArcProgressView" owner:nil options:nil];
-    UIView *arcView = viewArr.lastObject;
-    arcView.backgroundColor = [UIColor redColor];
-    [self.view addSubview:arcView];
+    [ArcProgressView installTo:self.view];
 }
 
 - (void)didReceiveMemoryWarning

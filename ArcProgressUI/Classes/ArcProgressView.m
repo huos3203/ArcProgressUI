@@ -31,6 +31,16 @@ CGFloat _arcH;
     }
 }
 
+#pragma mark - API
++(ArcProgressView *)installTo:(UIView *)superView{
+    NSBundle *podBundle = [NSBundle bundleForClass:[ArcProgressView class]];
+    NSURL *bundleURL = [podBundle URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
+    NSArray *viewArr = [bundle loadNibNamed:@"ArcProgressView" owner:nil options:nil];
+    ArcProgressView *arcView = viewArr.lastObject;
+    [superView addSubview:arcView];
+    return arcView;
+}
 #pragma mark - view event
 ///绘制UI
 void drawArcTrack()

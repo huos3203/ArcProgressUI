@@ -10,6 +10,8 @@
 IB_DESIGNABLE
 @interface ArcProgressView : UIView
 
++(ArcProgressView *)installTo:(UIView *)superView;
+
 @property(nonatomic,assign)int num;
 @property(nonatomic,strong)IBOutlet UILabel *numLabel;
 @property(nonatomic,strong)NSTimer *timer;
