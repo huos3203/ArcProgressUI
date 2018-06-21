@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface ArtTool : NSObject
-+(void)logArcToo;
++(void)logArcToo:(UIView *)superView;
 @end

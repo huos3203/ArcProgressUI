@@ -1,6 +1,6 @@
 #use_frameworks!
 
-target 'ArcProgressUI_Example' do
+target 'ArtTool' do
   pod 'ArcProgressUI', :path => '../'
 
 #  target 'ArcProgressUI_Tests' do

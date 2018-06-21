@@ -18,6 +18,8 @@
 		05D601F420DBCE2D000A435A /* ArtTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D601F320DBCE2D000A435A /* ArtTool.m */; };
 		05D601F520DBCE2D000A435A /* ArtTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05D601F220DBCE2D000A435A /* ArtTool.h */; };
 		05D601FB20DBCEA5000A435A /* libArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601F020DBCE2D000A435A /* libArtTool.a */; };
+		05D601FD20DBD369000A435A /* ArcProgressUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05D601FC20DBD368000A435A /* ArcProgressUI.bundle */; };
+		05D601FF20DBD80D000A435A /* libArcProgressUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601FE20DBD80D000A435A /* libArcProgressUI.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -31,7 +33,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		60D0C2F7EE29AEE872753240 /* libPods-ArcProgressUI_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE49BC9B6955052E677056AB /* libPods-ArcProgressUI_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -77,14 +78,15 @@
 		05D601F020DBCE2D000A435A /* libArtTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArtTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D601F220DBCE2D000A435A /* ArtTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtTool.h; sourceTree = "<group>"; };
 		05D601F320DBCE2D000A435A /* ArtTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtTool.m; sourceTree = "<group>"; };
+		05D601FC20DBD368000A435A /* ArcProgressUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcProgressUI.bundle; path = "../../../../Library/Developer/Xcode/DerivedData/ArcProgressUI-gbxkktgpxzoujsfqglvanczqflyt/Build/Products/Debug-iphoneos/ArcProgressUI/ArcProgressUI.bundle"; sourceTree = "<group>"; };
+		05D601FE20DBD80D000A435A /* libArcProgressUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libArcProgressUI.a; path = "../../../../../Library/Developer/Xcode/DerivedData/ArcProgressUI-gbxkktgpxzoujsfqglvanczqflyt/Build/Products/Debug-iphoneos/ArcProgressUI/libArcProgressUI.a"; sourceTree = "<group>"; };
 		05F32DF620DA00ED0073C616 /* ArcProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcProgressView.h; sourceTree = "<group>"; };
 		05F32DF720DA00ED0073C616 /* ArcProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcProgressView.m; sourceTree = "<group>"; };
 		05F32DF920DA1CD40073C616 /* ArcProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcProgressView.xib; sourceTree = "<group>"; };
 		05F32DFD20DA4D410073C616 /* ArcTitleLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcTitleLabel.h; sourceTree = "<group>"; };
 		05F32DFE20DA4D410073C616 /* ArcTitleLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcTitleLabel.m; sourceTree = "<group>"; };
+		0796CC4FAE5E9A77342D4B4F /* Pods-ArtTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtTool/Pods-ArtTool.debug.xcconfig"; sourceTree = "<group>"; };
 		1635BF7E131A9AACA404F735 /* Pods_ArcProgressUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcProgressUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4072A8C646CFA22D0CE98439 /* Pods-ArcProgressUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		57D2938FC21317D7EAE75541 /* Pods-ArcProgressUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ArcProgressUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcProgressUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +109,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96038E93823A1741A1DFCD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		978B5D7928F5AF10A4AE0737 /* Pods-ArtTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtTool/Pods-ArtTool.release.xcconfig"; sourceTree = "<group>"; };
+		B15210330EBD7A1EC03822EB /* libPods-ArtTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA33F912AA75B5F12FE6846 /* ArcProgressUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ArcProgressUI.podspec; path = ../ArcProgressUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE49BC9B6955052E677056AB /* libPods-ArcProgressUI_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArcProgressUI_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE984EEF0EBC91D83AEBFA74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D601FF20DBD80D000A435A /* libArcProgressUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +133,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				60D0C2F7EE29AEE872753240 /* libPods-ArcProgressUI_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +152,7 @@
 		05D601F120DBCE2D000A435A /* ArtTool */ = {
 			isa = PBXGroup;
 			children = (
+				05D601FE20DBD80D000A435A /* libArcProgressUI.a */,
 				05D601F220DBCE2D000A435A /* ArtTool.h */,
 				05D601F320DBCE2D000A435A /* ArtTool.m */,
 			);
@@ -187,6 +192,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				05D601FC20DBD368000A435A /* ArcProgressUI.bundle */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ArcProgressUI */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -216,6 +222,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				1635BF7E131A9AACA404F735 /* Pods_ArcProgressUI_Tests.framework */,
 				FE49BC9B6955052E677056AB /* libPods-ArcProgressUI_Example.a */,
+				B15210330EBD7A1EC03822EB /* libPods-ArtTool.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,8 +287,8 @@
 		933A1A91FD6AE7941858CCD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4072A8C646CFA22D0CE98439 /* Pods-ArcProgressUI_Example.debug.xcconfig */,
-				57D2938FC21317D7EAE75541 /* Pods-ArcProgressUI_Example.release.xcconfig */,
+				0796CC4FAE5E9A77342D4B4F /* Pods-ArtTool.debug.xcconfig */,
+				978B5D7928F5AF10A4AE0737 /* Pods-ArtTool.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -293,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05D601F820DBCE2D000A435A /* Build configuration list for PBXNativeTarget "ArtTool" */;
 			buildPhases = (
+				494B9F6755E3C0D0917E6336 /* [CP] Check Pods Manifest.lock */,
 				05D601EC20DBCE2D000A435A /* Sources */,
 				05D601ED20DBCE2D000A435A /* Frameworks */,
 				05D601EE20DBCE2D000A435A /* CopyFiles */,
+				F954FF26176C02BC4B23074E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -310,11 +319,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ArcProgressUI_Example" */;
 			buildPhases = (
-				08D4A322E150A54A0E6E5202 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				57BB6E48DD8CC33607CD16ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -391,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D601FD20DBD369000A435A /* ArcProgressUI.bundle in Resources */,
 				053C239720DBBB090093B0A3 /* V33tishi@3x.png in Resources */,
 				053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */,
 				053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */,
@@ -416,7 +424,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08D4A322E150A54A0E6E5202 /* [CP] Check Pods Manifest.lock */ = {
+		494B9F6755E3C0D0917E6336 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,20 +435,20 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArcProgressUI_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ArtTool-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		57BB6E48DD8CC33607CD16ED /* [CP] Copy Pods Resources */ = {
+		F954FF26176C02BC4B23074E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArtTool/Pods-ArtTool-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ArcProgressUI/ArcProgressUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -449,7 +457,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtTool/Pods-ArtTool-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -526,6 +534,7 @@
 /* Begin XCBuildConfiguration section */
 		05D601F620DBCE2D000A435A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0796CC4FAE5E9A77342D4B4F /* Pods-ArtTool.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -558,6 +567,7 @@
 		};
 		05D601F720DBCE2D000A435A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978B5D7928F5AF10A4AE0737 /* Pods-ArtTool.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -664,7 +674,6 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4072A8C646CFA22D0CE98439 /* Pods-ArcProgressUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9CA5KUE8T7;
@@ -680,7 +689,6 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57D2938FC21317D7EAE75541 /* Pods-ArcProgressUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9CA5KUE8T7;

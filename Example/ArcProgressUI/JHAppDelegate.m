@@ -12,13 +12,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
     // Override point for customization after application launch.
+    /*
     NSURL *bundleURL = [[NSBundle mainBundle] URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
     UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:bundle];
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
+    
     JHViewController *loginVC = [story instantiateInitialViewController];
 //[story instantiateViewControllerWithIdentifier:@"J"];
+     */
+    JHViewController *loginVC = [JHViewController new];
     self.window.rootViewController = loginVC;
     [self.window makeKeyAndVisible];
     return YES;

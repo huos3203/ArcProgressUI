@@ -7,10 +7,12 @@
 //
 
 #import "ArtTool.h"
+#import "ArcProgressView.h"
 
 @implementation ArtTool
-+(void)logArcToo
++(void)logArcToo:(UIView *)superView
 {
     NSLog(@"------");
+    [ArcProgressView installTo:superView];
 }
 @end

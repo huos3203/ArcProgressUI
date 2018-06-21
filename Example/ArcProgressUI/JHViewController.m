@@ -20,7 +20,21 @@
     [super viewDidLoad];
     
 //    [ArcProgressView installTo:self.view];
-    [ArtTool logArcToo];
+    [ArtTool logArcToo:self.view];
+//    let podBundle = NSBundle(forClass: FrameworkVC.self)
+//    [self setWindow];
+}
+
+-(void)setWindow
+{
+    NSBundle *podbundle = [NSBundle bundleForClass:[ArtTool class]];
+     NSURL *bundleURL = [podbundle URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
+     NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
+     UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:bundle];
+     JHViewController *loginVC = [story instantiateInitialViewController];
+    UIWindow *ww = [[UIApplication sharedApplication] windows].firstObject;
+    ww.rootViewController = loginVC;
+    
 }
 
 - (void)didReceiveMemoryWarning
