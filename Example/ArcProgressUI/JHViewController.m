@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     
-    [ArcProgressView installTo:self.view];
+//    [ArcProgressView installTo:self.view];
 }
 
 - (void)didReceiveMemoryWarning

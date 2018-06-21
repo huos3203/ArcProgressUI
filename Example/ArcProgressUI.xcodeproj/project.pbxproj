@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053C239220DBBB090093B0A3 /* V33yinying@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238C20DBBB070093B0A3 /* V33yinying@2x.png */; };
+		053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238D20DBBB070093B0A3 /* V33yinying@3x.png */; };
+		053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238E20DBBB080093B0A3 /* V33tishi@2x.png */; };
+		053C239520DBBB090093B0A3 /* V33fengxianlianghuabeijing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238F20DBBB080093B0A3 /* V33fengxianlianghuabeijing@3x.png */; };
+		053C239620DBBB090093B0A3 /* V33fengxianlianghuabeijing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C239020DBBB080093B0A3 /* V33fengxianlianghuabeijing@2x.png */; };
+		053C239720DBBB090093B0A3 /* V33tishi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C239120DBBB090093B0A3 /* V33tishi@3x.png */; };
+		0575CC0C20DB840400BA4074 /* ArcProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DF720DA00ED0073C616 /* ArcProgressView.m */; };
+		0575CC0D20DB840800BA4074 /* ArcTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DFE20DA4D410073C616 /* ArcTitleLabel.m */; };
+		05D601E820DBBE61000A435A /* V3baifanhui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */; };
+		05D601E920DBBE61000A435A /* V3baifanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D601E720DBBE61000A435A /* V3baifanhui@2x.png */; };
 		05F32DFA20DA1CD40073C616 /* ArcProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F32DF920DA1CD40073C616 /* ArcProgressView.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -21,9 +31,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6F2D347EA2B4F8AAD8C1854F /* Pods_ArcProgressUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1635BF7E131A9AACA404F735 /* Pods_ArcProgressUI_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9A6B208869314BD7758B82A1 /* Pods_ArcProgressUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D6E89EA46B0B267DD2D9A2 /* Pods_ArcProgressUI_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053C238C20DBBB070093B0A3 /* V33yinying@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33yinying@2x.png"; sourceTree = "<group>"; };
+		053C238D20DBBB070093B0A3 /* V33yinying@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33yinying@3x.png"; sourceTree = "<group>"; };
+		053C238E20DBBB080093B0A3 /* V33tishi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33tishi@2x.png"; sourceTree = "<group>"; };
+		053C238F20DBBB080093B0A3 /* V33fengxianlianghuabeijing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33fengxianlianghuabeijing@3x.png"; sourceTree = "<group>"; };
+		053C239020DBBB080093B0A3 /* V33fengxianlianghuabeijing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33fengxianlianghuabeijing@2x.png"; sourceTree = "<group>"; };
+		053C239120DBBB090093B0A3 /* V33tishi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33tishi@3x.png"; sourceTree = "<group>"; };
+		05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V3baifanhui@3x.png"; sourceTree = "<group>"; };
+		05D601E720DBBE61000A435A /* V3baifanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V3baifanhui@2x.png"; sourceTree = "<group>"; };
 		05F32DF620DA00ED0073C616 /* ArcProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcProgressView.h; sourceTree = "<group>"; };
 		05F32DF720DA00ED0073C616 /* ArcProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcProgressView.m; sourceTree = "<group>"; };
 		05F32DF920DA1CD40073C616 /* ArcProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcProgressView.xib; sourceTree = "<group>"; };
 		05F32DFD20DA4D410073C616 /* ArcTitleLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcTitleLabel.h; sourceTree = "<group>"; };
 		05F32DFE20DA4D410073C616 /* ArcTitleLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcTitleLabel.m; sourceTree = "<group>"; };
 		1635BF7E131A9AACA404F735 /* Pods_ArcProgressUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcProgressUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2266E251E6F8B2F8D9D1995D /* Pods-ArcProgressUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43D49B0861164A7A07AEC1E0 /* Pods-ArcProgressUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		41AD5FBCE23D300E40A5F166 /* Pods-ArcProgressUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Tests/Pods-ArcProgressUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ArcProgressUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcProgressUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +83,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F1CDA2C392AB74F9DF76F39 /* Pods-ArcProgressUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcProgressUI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcProgressUI_Tests/Pods-ArcProgressUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96038E93823A1741A1DFCD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BDA33F912AA75B5F12FE6846 /* ArcProgressUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ArcProgressUI.podspec; path = ../ArcProgressUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F9D6E89EA46B0B267DD2D9A2 /* Pods_ArcProgressUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcProgressUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +98,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9A6B208869314BD7758B82A1 /* Pods_ArcProgressUI_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +108,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				6F2D347EA2B4F8AAD8C1854F /* Pods_ArcProgressUI_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +130,14 @@
 		05F32DEE20DA00580073C616 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				05D601E720DBBE61000A435A /* V3baifanhui@2x.png */,
+				05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */,
+				053C239020DBBB080093B0A3 /* V33fengxianlianghuabeijing@2x.png */,
+				053C238F20DBBB080093B0A3 /* V33fengxianlianghuabeijing@3x.png */,
+				053C238E20DBBB080093B0A3 /* V33tishi@2x.png */,
+				053C239120DBBB090093B0A3 /* V33tishi@3x.png */,
+				053C238C20DBBB070093B0A3 /* V33yinying@2x.png */,
+				053C238D20DBBB070093B0A3 /* V33yinying@3x.png */,
 				05F32DF920DA1CD40073C616 /* ArcProgressView.xib */,
 			);
 			name = Assets;
@@ -213,8 +239,8 @@
 		933A1A91FD6AE7941858CCD1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43D49B0861164A7A07AEC1E0 /* Pods-ArcProgressUI_Example.debug.xcconfig */,
-				2266E251E6F8B2F8D9D1995D /* Pods-ArcProgressUI_Example.release.xcconfig */,
+				41AD5FBCE23D300E40A5F166 /* Pods-ArcProgressUI_Tests.debug.xcconfig */,
+				8F1CDA2C392AB74F9DF76F39 /* Pods-ArcProgressUI_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -226,11 +252,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ArcProgressUI_Example" */;
 			buildPhases = (
-				9CCA0D3E77F59417FF7EB6CD /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				FB99B3FD96CC7BED6C42602B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ArcProgressUI_Tests" */;
 			buildPhases = (
+				142A158A74B75ECC148A51AB /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				2B88173301677483B08DB303 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,9 +324,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053C239720DBBB090093B0A3 /* V33tishi@3x.png in Resources */,
+				053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */,
+				053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */,
+				053C239520DBBB090093B0A3 /* V33fengxianlianghuabeijing@3x.png in Resources */,
+				05D601E820DBBE61000A435A /* V3baifanhui@3x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				053C239220DBBB090093B0A3 /* V33yinying@2x.png in Resources */,
+				053C239620DBBB090093B0A3 /* V33fengxianlianghuabeijing@2x.png in Resources */,
 				05F32DFA20DA1CD40073C616 /* ArcProgressView.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				05D601E920DBBE61000A435A /* V3baifanhui@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -317,7 +351,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9CCA0D3E77F59417FF7EB6CD /* [CP] Check Pods Manifest.lock */ = {
+		142A158A74B75ECC148A51AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,20 +362,20 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ArcProgressUI_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ArcProgressUI_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FB99B3FD96CC7BED6C42602B /* [CP] Embed Pods Frameworks */ = {
+		2B88173301677483B08DB303 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArcProgressUI_Tests/Pods-ArcProgressUI_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ArcProgressUI/ArcProgressUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -350,7 +384,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcProgressUI_Tests/Pods-ArcProgressUI_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -362,7 +396,9 @@
 			files = (
 				6003F59E195388D20070C39A /* JHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JHViewController.m in Sources */,
+				0575CC0C20DB840400BA4074 /* ArcProgressView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0575CC0D20DB840800BA4074 /* ArcTitleLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +523,6 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43D49B0861164A7A07AEC1E0 /* Pods-ArcProgressUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -502,7 +537,6 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2266E251E6F8B2F8D9D1995D /* Pods-ArcProgressUI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -517,6 +551,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41AD5FBCE23D300E40A5F166 /* Pods-ArcProgressUI_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -540,6 +575,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1CDA2C392AB74F9DF76F39 /* Pods-ArcProgressUI_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
