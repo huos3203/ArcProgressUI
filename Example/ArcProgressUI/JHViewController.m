@@ -8,7 +8,7 @@
 
 #import "JHViewController.h"
 #import "ArcProgressView.h"
-
+#import "ArtTool.h"
 @interface JHViewController ()
 
 @end
@@ -20,6 +20,7 @@
     [super viewDidLoad];
     
 //    [ArcProgressView installTo:self.view];
+    [ArtTool logArcToo];
 }
 
 - (void)didReceiveMemoryWarning

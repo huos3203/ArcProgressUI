@@ -15,6 +15,9 @@
 		053C239720DBBB090093B0A3 /* V33tishi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C239120DBBB090093B0A3 /* V33tishi@3x.png */; };
 		05D601E820DBBE61000A435A /* V3baifanhui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */; };
 		05D601E920DBBE61000A435A /* V3baifanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D601E720DBBE61000A435A /* V3baifanhui@2x.png */; };
+		05D601F420DBCE2D000A435A /* ArtTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D601F320DBCE2D000A435A /* ArtTool.m */; };
+		05D601F520DBCE2D000A435A /* ArtTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05D601F220DBCE2D000A435A /* ArtTool.h */; };
+		05D601FB20DBCEA5000A435A /* libArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601F020DBCE2D000A435A /* libArtTool.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -33,6 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		05D601F920DBCEA0000A435A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D601EF20DBCE2D000A435A;
+			remoteInfo = ArtTool;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -41,6 +51,19 @@
 			remoteInfo = ArcProgressUI;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05D601EE20DBCE2D000A435A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				05D601F520DBCE2D000A435A /* ArtTool.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		053C238C20DBBB070093B0A3 /* V33yinying@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33yinying@2x.png"; sourceTree = "<group>"; };
@@ -51,6 +74,9 @@
 		053C239120DBBB090093B0A3 /* V33tishi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33tishi@3x.png"; sourceTree = "<group>"; };
 		05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V3baifanhui@3x.png"; sourceTree = "<group>"; };
 		05D601E720DBBE61000A435A /* V3baifanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V3baifanhui@2x.png"; sourceTree = "<group>"; };
+		05D601F020DBCE2D000A435A /* libArtTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArtTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D601F220DBCE2D000A435A /* ArtTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtTool.h; sourceTree = "<group>"; };
+		05D601F320DBCE2D000A435A /* ArtTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtTool.m; sourceTree = "<group>"; };
 		05F32DF620DA00ED0073C616 /* ArcProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcProgressView.h; sourceTree = "<group>"; };
 		05F32DF720DA00ED0073C616 /* ArcProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcProgressView.m; sourceTree = "<group>"; };
 		05F32DF920DA1CD40073C616 /* ArcProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcProgressView.xib; sourceTree = "<group>"; };
@@ -87,10 +113,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05D601ED20DBCE2D000A435A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D601FB20DBCEA5000A435A /* libArtTool.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -111,6 +145,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D601F120DBCE2D000A435A /* ArtTool */ = {
+			isa = PBXGroup;
+			children = (
+				05D601F220DBCE2D000A435A /* ArtTool.h */,
+				05D601F320DBCE2D000A435A /* ArtTool.m */,
+			);
+			path = ArtTool;
+			sourceTree = "<group>";
+		};
 		05F32DEB20DA00580073C616 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +190,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ArcProgressUI */,
 				6003F5B5195388D20070C39A /* Tests */,
+				05D601F120DBCE2D000A435A /* ArtTool */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				933A1A91FD6AE7941858CCD1 /* Pods */,
@@ -158,6 +202,7 @@
 			children = (
 				6003F58A195388D20070C39A /* ArcProgressUI_Example.app */,
 				6003F5AE195388D20070C39A /* ArcProgressUI_Tests.xctest */,
+				05D601F020DBCE2D000A435A /* libArtTool.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,6 +289,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		05D601EF20DBCE2D000A435A /* ArtTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D601F820DBCE2D000A435A /* Build configuration list for PBXNativeTarget "ArtTool" */;
+			buildPhases = (
+				05D601EC20DBCE2D000A435A /* Sources */,
+				05D601ED20DBCE2D000A435A /* Frameworks */,
+				05D601EE20DBCE2D000A435A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtTool;
+			productName = ArtTool;
+			productReference = 05D601F020DBCE2D000A435A /* libArtTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		6003F589195388D20070C39A /* ArcProgressUI_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ArcProgressUI_Example" */;
@@ -257,6 +319,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				05D601FA20DBCEA0000A435A /* PBXTargetDependency */,
 			);
 			name = ArcProgressUI_Example;
 			productName = ArcProgressUI;
@@ -291,6 +354,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "huo3203@hotmail.com";
 				TargetAttributes = {
+					05D601EF20DBCE2D000A435A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 9CA5KUE8T7;
 					};
@@ -314,6 +381,7 @@
 			targets = (
 				6003F589195388D20070C39A /* ArcProgressUI_Example */,
 				6003F5AD195388D20070C39A /* ArcProgressUI_Tests */,
+				05D601EF20DBCE2D000A435A /* ArtTool */,
 			);
 		};
 /* End PBXProject section */
@@ -387,6 +455,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		05D601EC20DBCE2D000A435A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D601F420DBCE2D000A435A /* ArtTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,6 +484,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		05D601FA20DBCEA0000A435A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05D601EF20DBCE2D000A435A /* ArtTool */;
+			targetProxy = 05D601F920DBCEA0000A435A /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* ArcProgressUI_Example */;
@@ -443,6 +524,71 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		05D601F620DBCE2D000A435A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05D601F720DBCE2D000A435A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -593,6 +739,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05D601F820DBCE2D000A435A /* Build configuration list for PBXNativeTarget "ArtTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D601F620DBCE2D000A435A /* Debug */,
+				05D601F720DBCE2D000A435A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "ArcProgressUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
