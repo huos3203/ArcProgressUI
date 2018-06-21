@@ -30,14 +30,21 @@ CGFloat _arcH;
         _timer = [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(change) userInfo:nil repeats:YES];
     }
 }
-
+-(void)awakeFromNib
+{
+    [super awakeFromNib];
+    NSLog(@"dfdfd");
+}
 #pragma mark - API
 +(ArcProgressView *)installTo:(UIView *)superView{
-    NSBundle *podBundle = [NSBundle bundleForClass:[ArcProgressView class]];
+    NSLog(@"成功。。。。。");
+//    return nil;
+        NSBundle *podBundle = [NSBundle bundleForClass:[ArcProgressView class]];
     NSURL *bundleURL = [podBundle URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
     NSArray *viewArr = [bundle loadNibNamed:@"ArcProgressView" owner:nil options:nil];
     ArcProgressView *arcView = viewArr.lastObject;
+    arcView.numLabel.text = @"numLabelnumLabel";
     [superView addSubview:arcView];
     return arcView;
 }

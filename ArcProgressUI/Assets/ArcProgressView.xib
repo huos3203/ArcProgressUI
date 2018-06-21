@@ -56,6 +56,7 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="ibTitleLabel" destination="TSI-fy-7O6" id="0Py-PV-3L6"/>
+                <outlet property="numLabel" destination="zVf-Ut-oCa" id="xvS-k6-UPp"/>
             </connections>
             <point key="canvasLocation" x="17.5" y="-148"/>
         </view>

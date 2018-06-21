@@ -7,7 +7,6 @@
 //
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
 @interface ArcProgressView : UIView
 
 +(ArcProgressView *)installTo:(UIView *)superView;
