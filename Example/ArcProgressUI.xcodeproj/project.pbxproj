@@ -231,7 +231,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				FB99B3FD96CC7BED6C42602B /* [CP] Embed Pods Frameworks */,
-				8E2AEF6A2A8B220729D35221 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,21 +317,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E2AEF6A2A8B220729D35221 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcProgressUI_Example/Pods-ArcProgressUI_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9CCA0D3E77F59417FF7EB6CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
