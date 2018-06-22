@@ -10,4 +10,5 @@
 #import <UIKit/UIKit.h>
 @interface ArtTool : NSObject
 +(void)logArcToo:(UIView *)superView;
++(UIViewController *)VCFromStoryBoard;
 @end

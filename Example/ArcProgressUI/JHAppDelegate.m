@@ -12,8 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window.backgroundColor = [UIColor whiteColor];
     // Override point for customization after application launch.
     /*
     NSURL *bundleURL = [[NSBundle mainBundle] URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
@@ -23,9 +23,9 @@
     JHViewController *loginVC = [story instantiateInitialViewController];
 //[story instantiateViewControllerWithIdentifier:@"J"];
      */
-    JHViewController *loginVC = [JHViewController new];
-    self.window.rootViewController = loginVC;
-    [self.window makeKeyAndVisible];
+//    JHViewController *loginVC = [JHViewController new];
+//    self.window.rootViewController = loginVC;
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 

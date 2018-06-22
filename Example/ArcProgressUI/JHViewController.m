@@ -7,7 +7,6 @@
 //
 
 #import "JHViewController.h"
-#import "ArcProgressView.h"
 #import "ArtTool.h"
 @interface JHViewController ()
 
@@ -20,21 +19,12 @@
     [super viewDidLoad];
     
 //    [ArcProgressView installTo:self.view];
-    [ArtTool logArcToo:self.view];
+//    [ArtTool logArcToo:self.view];
 //    let podBundle = NSBundle(forClass: FrameworkVC.self)
-//    [self setWindow];
 }
-
--(void)setWindow
-{
-    NSBundle *podbundle = [NSBundle bundleForClass:[ArtTool class]];
-     NSURL *bundleURL = [podbundle URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
-     NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
-     UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:bundle];
-     JHViewController *loginVC = [story instantiateInitialViewController];
-    UIWindow *ww = [[UIApplication sharedApplication] windows].firstObject;
-    ww.rootViewController = loginVC;
-    
+- (IBAction)ibaPushVCAction:(id)sender {
+    UIViewController *VC = [ArtTool VCFromStoryBoard];
+    [self presentViewController:VC animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

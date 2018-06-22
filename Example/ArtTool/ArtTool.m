@@ -8,11 +8,15 @@
 
 #import "ArtTool.h"
 #import "ArcProgressView.h"
-
+#import "PatrolScoreViewController.h"
 @implementation ArtTool
 +(void)logArcToo:(UIView *)superView
 {
     NSLog(@"------");
     [ArcProgressView installTo:superView];
+}
+
++(UIViewController *)VCFromStoryBoard{
+    return [PatrolScoreViewController withStoryboard];
 }
 @end

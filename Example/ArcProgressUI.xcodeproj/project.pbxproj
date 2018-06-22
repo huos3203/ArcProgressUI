@@ -7,22 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05097DAF20DCF61F00D946BD /* libArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601F020DBCE2D000A435A /* libArtTool.a */; };
 		053C239220DBBB090093B0A3 /* V33yinying@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238C20DBBB070093B0A3 /* V33yinying@2x.png */; };
 		053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238D20DBBB070093B0A3 /* V33yinying@3x.png */; };
 		053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238E20DBBB080093B0A3 /* V33tishi@2x.png */; };
 		053C239520DBBB090093B0A3 /* V33fengxianlianghuabeijing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238F20DBBB080093B0A3 /* V33fengxianlianghuabeijing@3x.png */; };
 		053C239620DBBB090093B0A3 /* V33fengxianlianghuabeijing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C239020DBBB080093B0A3 /* V33fengxianlianghuabeijing@2x.png */; };
 		053C239720DBBB090093B0A3 /* V33tishi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C239120DBBB090093B0A3 /* V33tishi@3x.png */; };
+		055C47E620DC916C00B0666D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055C47E520DC916C00B0666D /* Main.storyboard */; };
 		05D601E820DBBE61000A435A /* V3baifanhui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */; };
 		05D601E920DBBE61000A435A /* V3baifanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05D601E720DBBE61000A435A /* V3baifanhui@2x.png */; };
 		05D601F420DBCE2D000A435A /* ArtTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D601F320DBCE2D000A435A /* ArtTool.m */; };
 		05D601F520DBCE2D000A435A /* ArtTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05D601F220DBCE2D000A435A /* ArtTool.h */; };
-		05D601FB20DBCEA5000A435A /* libArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601F020DBCE2D000A435A /* libArtTool.a */; };
 		05D601FD20DBD369000A435A /* ArcProgressUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05D601FC20DBD368000A435A /* ArcProgressUI.bundle */; };
 		05D601FF20DBD80D000A435A /* libArcProgressUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601FE20DBD80D000A435A /* libArcProgressUI.a */; };
-		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
-		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		5C825B4D9AA7BA0095FDD8CE /* libPods-ArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B15210330EBD7A1EC03822EB /* libPods-ArtTool.a */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* JHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JHAppDelegate.m */; };
@@ -37,7 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		05D601F920DBCEA0000A435A /* PBXContainerItemProxy */ = {
+		05097DB020DCF62A00D946BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
@@ -73,6 +72,9 @@
 		053C238F20DBBB080093B0A3 /* V33fengxianlianghuabeijing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33fengxianlianghuabeijing@3x.png"; sourceTree = "<group>"; };
 		053C239020DBBB080093B0A3 /* V33fengxianlianghuabeijing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33fengxianlianghuabeijing@2x.png"; sourceTree = "<group>"; };
 		053C239120DBBB090093B0A3 /* V33tishi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33tishi@3x.png"; sourceTree = "<group>"; };
+		055C47E520DC916C00B0666D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		055C47E720DC92C600B0666D /* PatrolScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatrolScoreViewController.h; sourceTree = "<group>"; };
+		055C47E820DC92C600B0666D /* PatrolScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatrolScoreViewController.m; sourceTree = "<group>"; };
 		05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V3baifanhui@3x.png"; sourceTree = "<group>"; };
 		05D601E720DBBE61000A435A /* V3baifanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V3baifanhui@2x.png"; sourceTree = "<group>"; };
 		05D601F020DBCE2D000A435A /* libArtTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArtTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +109,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* PatrolScore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PatrolScore.storyboard; sourceTree = "<group>"; };
 		96038E93823A1741A1DFCD8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		978B5D7928F5AF10A4AE0737 /* Pods-ArtTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtTool/Pods-ArtTool.release.xcconfig"; sourceTree = "<group>"; };
 		B15210330EBD7A1EC03822EB /* libPods-ArtTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D601FF20DBD80D000A435A /* libArcProgressUI.a in Frameworks */,
+				5C825B4D9AA7BA0095FDD8CE /* libPods-ArtTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,10 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05D601FB20DBCEA5000A435A /* libArtTool.a in Frameworks */,
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				05097DAF20DCF61F00D946BD /* libArtTool.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +166,8 @@
 				05F32DF720DA00ED0073C616 /* ArcProgressView.m */,
 				05F32DFD20DA4D410073C616 /* ArcTitleLabel.h */,
 				05F32DFE20DA4D410073C616 /* ArcTitleLabel.m */,
+				055C47E720DC92C600B0666D /* PatrolScoreViewController.h */,
+				055C47E820DC92C600B0666D /* PatrolScoreViewController.m */,
 			);
 			name = Classes;
 			path = ../ArcProgressUI/Classes;
@@ -183,7 +185,7 @@
 				053C238C20DBBB070093B0A3 /* V33yinying@2x.png */,
 				053C238D20DBBB070093B0A3 /* V33yinying@3x.png */,
 				05F32DF920DA1CD40073C616 /* ArcProgressView.xib */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* PatrolScore.storyboard */,
 			);
 			name = Assets;
 			path = ../ArcProgressUI/Assets;
@@ -234,6 +236,7 @@
 				6003F59D195388D20070C39A /* JHAppDelegate.m */,
 				6003F5A5195388D20070C39A /* JHViewController.h */,
 				6003F5A6195388D20070C39A /* JHViewController.m */,
+				055C47E520DC916C00B0666D /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -326,7 +329,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				05D601FA20DBCEA0000A435A /* PBXTargetDependency */,
+				05097DB120DCF62A00D946BD /* PBXTargetDependency */,
 			);
 			name = ArcProgressUI_Example;
 			productName = ArcProgressUI;
@@ -405,6 +408,7 @@
 				053C239520DBBB090093B0A3 /* V33fengxianlianghuabeijing@3x.png in Resources */,
 				05D601E820DBBE61000A435A /* V3baifanhui@3x.png in Resources */,
 				053C239220DBBB090093B0A3 /* V33yinying@2x.png in Resources */,
+				055C47E620DC916C00B0666D /* Main.storyboard in Resources */,
 				053C239620DBBB090093B0A3 /* V33fengxianlianghuabeijing@2x.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				05D601E920DBBE61000A435A /* V3baifanhui@2x.png in Resources */,
@@ -492,10 +496,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		05D601FA20DBCEA0000A435A /* PBXTargetDependency */ = {
+		05097DB120DCF62A00D946BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 05D601EF20DBCE2D000A435A /* ArtTool */;
-			targetProxy = 05D601F920DBCEA0000A435A /* PBXContainerItemProxy */;
+			targetProxy = 05097DB020DCF62A00D946BD /* PBXContainerItemProxy */;
 		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -681,6 +685,7 @@
 				GCC_PREFIX_HEADER = "ArcProgressUI/ArcProgressUI-Prefix.pch";
 				INFOPLIST_FILE = "ArcProgressUI/ArcProgressUI-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinher.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -696,6 +701,7 @@
 				GCC_PREFIX_HEADER = "ArcProgressUI/ArcProgressUI-Prefix.pch";
 				INFOPLIST_FILE = "ArcProgressUI/ArcProgressUI-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinher.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
