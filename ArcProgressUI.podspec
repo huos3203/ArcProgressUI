@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ArcProgressUI'
-  s.version          = '0.4.0'
+  s.version          = '1.0.0'
   s.summary          = '组件方式实现弧形表盘仪UI，快速复用集成'
 
 # This description is used to generate tags and improve search results.
