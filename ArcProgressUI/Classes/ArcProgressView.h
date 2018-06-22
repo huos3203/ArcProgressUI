@@ -6,7 +6,7 @@
 //Copyright © 2018年 huo3203@hotmail.com. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-
+IB_DESIGNABLE
 @interface ArcProgressView : UIView
 
 +(ArcProgressView *)installTo:(UIView *)superView;

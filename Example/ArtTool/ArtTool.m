@@ -12,7 +12,6 @@
 @implementation ArtTool
 +(void)logArcToo:(UIView *)superView
 {
-    NSLog(@"------");
     [ArcProgressView installTo:superView];
 }
 

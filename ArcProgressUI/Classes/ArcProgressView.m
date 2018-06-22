@@ -33,12 +33,9 @@ CGFloat _arcH;
 -(void)awakeFromNib
 {
     [super awakeFromNib];
-    NSLog(@"dfdfd");
 }
 #pragma mark - API
 +(ArcProgressView *)installTo:(UIView *)superView{
-    NSLog(@"成功。。。。。");
-//    return nil;
         NSBundle *podBundle = [NSBundle bundleForClass:[ArcProgressView class]];
     NSURL *bundleURL = [podBundle URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
@@ -54,7 +51,6 @@ void drawArcTrack()
 {
     //1.获取上下文
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    
     //1.1 设置线条的宽度
     CGContextSetLineWidth(ctx, 10);
     //1.2 设置线条的起始点样式
@@ -128,7 +124,6 @@ void drawArcTrack()
 -(void)setNum:(int)num
 {
     _num = num;
-    
 }
 @end
 

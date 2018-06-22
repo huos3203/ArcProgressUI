@@ -17,10 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-//    [ArcProgressView installTo:self.view];
-//    [ArtTool logArcToo:self.view];
-//    let podBundle = NSBundle(forClass: FrameworkVC.self)
+    [ArtTool logArcToo:self.view];
 }
 - (IBAction)ibaPushVCAction:(id)sender {
     UIViewController *VC = [ArtTool VCFromStoryBoard];
