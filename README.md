@@ -45,7 +45,7 @@ arcView.backgroundColor = [UIColor redColor];
 结果：
 1. 手动配置一级静态库组件，依赖的二级静态库可用
 资源bundle文件直接添加到主工程资源拷贝列表中，在代码中会正常映射出IBoutlet相应的UI实例。参见 上述使用说明
-2. ` -ObjC`设置
+2. ` -ObjC`设置 [参考](https://www.jianshu.com/p/f2ffe8325519)
 在主工程build setting 配置的`Other linker` ：` -ObjC`：表示尽可能的加载所有依赖静态库中的objc源码资源。
 解决的问题：可以解决通过资源（xib/storyboard）初始化实例式
 ```
