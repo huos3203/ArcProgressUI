@@ -40,11 +40,22 @@ arcView.backgroundColor = [UIColor redColor];
         pod.a  ：包含二级静态库的集合
 
 其他经验：通过pod来开发一级静态库即组件。会生成组件的工作空间：workspace 将prj主工程拖入工作空间，来协作开发。
+> 坑：当再次切换主工程时，libJHPatrol.a的other linker tag 路径一定要更新。
 
 结果：
 1. 手动配置一级静态库组件，依赖的二级静态库可用
 资源bundle文件直接添加到主工程资源拷贝列表中，在代码中会正常映射出IBoutlet相应的UI实例。参见 上述使用说明
-2. 使用pod来一级静态库组件，管理依赖的二级静态库libpod.a无效
+2. ` -ObjC`设置
+在主工程build setting 配置的`Other linker` ：` -ObjC`：表示尽可能的加载所有依赖静态库中的objc源码资源。
+解决的问题：可以解决通过资源（xib/storyboard）初始化实例式
+```
+this class is not key value coding-compliant for the key ibReviewLabel
+```
+解决在storyboard中使用源码自定义UI控件时，无效果的问题。
+
+3. 在封装静态库中，storyboard/xib中的控件不要设置model属性。
+
+3. 使用pod来一级静态库组件，管理依赖的二级静态库libpod.a无效
 
 ## Author
 

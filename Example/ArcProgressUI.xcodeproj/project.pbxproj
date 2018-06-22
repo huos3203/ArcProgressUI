@@ -10,6 +10,7 @@
 		05097DAF20DCF61F00D946BD /* libArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601F020DBCE2D000A435A /* libArtTool.a */; };
 		05097DB520DD176100D946BD /* ArcProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DF720DA00ED0073C616 /* ArcProgressView.m */; };
 		05097DB620DD176700D946BD /* ArcProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F32DF920DA1CD40073C616 /* ArcProgressView.xib */; };
+		05097DB720DD17C900D946BD /* ArcTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DFE20DA4D410073C616 /* ArcTitleLabel.m */; };
 		053C239220DBBB090093B0A3 /* V33yinying@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238C20DBBB070093B0A3 /* V33yinying@2x.png */; };
 		053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238D20DBBB070093B0A3 /* V33yinying@3x.png */; };
 		053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238E20DBBB080093B0A3 /* V33tishi@2x.png */; };
@@ -486,6 +487,7 @@
 				6003F5A7195388D20070C39A /* JHViewController.m in Sources */,
 				05097DB520DD176100D946BD /* ArcProgressView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				05097DB720DD17C900D946BD /* ArcTitleLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
