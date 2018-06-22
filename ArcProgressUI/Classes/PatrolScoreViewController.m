@@ -7,9 +7,7 @@
 //
 
 #import "PatrolScoreViewController.h"
-
 @implementation ScoreCellView
-
 @end
 
 @implementation PatrolScoreModel
@@ -22,6 +20,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *ibStoreSizeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *ibReviewDateLabel;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *ibTableViewHeight;
+
 @end
 
 @implementation PatrolScoreViewController
@@ -58,7 +58,14 @@
     model2.score = @"20";
     _scoreArr = [[NSArray alloc] initWithObjects:model,model1,model2, nil];
 }
-
+-(void)viewDidAppear:(BOOL)animated
+{
+     _ibTableViewHeight.constant = self.tableView.contentSize.height;
+}
+#pragma mark UI event
+- (IBAction)ibaBackAction:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 #pragma mark tableView data
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 2;
