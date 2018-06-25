@@ -7,6 +7,7 @@
 //
 
 #import "PatrolScoreViewController.h"
+#import "SheetView.h"
 @implementation ScoreCellView
 @end
 
@@ -19,8 +20,17 @@
 @property (strong, nonatomic) IBOutlet UILabel *ibStoreStyleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *ibStoreSizeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *ibReviewDateLabel;
+@property (strong, nonatomic) IBOutlet UILabel *ibSetStoreSizeLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *ibStoreSizeSelectImgView;
+
+@property (strong, nonatomic) IBOutlet UIView *ibScoreView;
+@property (strong, nonatomic) IBOutlet UIView *ibStaticSizeView;
+
+
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet NSLayoutConstraint *ibTableViewHeight;
+
+@property (strong, nonatomic) IBOutlet SheetView *ibStoreSizeSheetBottomView;
 
 @end
 
@@ -30,18 +40,36 @@
 }
 
 #pragma mark - api
-+(PatrolScoreViewController *)withStoryboard{
++(PatrolScoreViewController *)withStoryboard:(PatrolScoreStyle)style{
     NSBundle *podbundle = [NSBundle bundleForClass:[PatrolScoreViewController class]];
     NSURL *bundleURL = [podbundle URLForResource:@"ArcProgressUI" withExtension:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithURL:bundleURL];
     UIStoryboard *story = [UIStoryboard storyboardWithName:@"PatrolScore" bundle:bundle];
     PatrolScoreViewController *VC = [story instantiateViewControllerWithIdentifier:@"PatrolScoreViewController"];
+    VC.scoreViewStyle = style;
     return VC;
 }
 
 #pragma mark - override
 -(void)viewDidLoad{
-//    [super viewDidLoad];
+    [super viewDidLoad];
+    switch (_scoreViewStyle) {
+            case AddStaticScoreStyle:
+            _ibScoreView.hidden = YES;
+            _ibStaticSizeView.hidden = NO;
+            _ibStoreSizeSelectImgView.hidden = NO;
+            break;
+            case StaticScoreStyle:
+            _ibScoreView.hidden = NO;
+            _ibStaticSizeView.hidden = NO;
+            break;
+            case DynamicScoreStyle:
+            _ibScoreView.hidden = NO;
+            _ibStaticSizeView.hidden = YES;
+            break;
+        default:
+            break;
+    }
     _ibTitlelabel.text = @"测试标题内容";
     _ibStoreStyleLabel.text = @"娱乐服务";
     _ibStoreSizeLabel.text = @"小型";
@@ -63,6 +91,25 @@
      _ibTableViewHeight.constant = self.tableView.contentSize.height;
 }
 #pragma mark UI event
+
+- (IBAction)ibaShowBottomStaticSizeView:(id)sender {
+    if (_scoreViewStyle != AddStaticScoreStyle) {
+        return;
+    }
+    SheetModel * model1 = [SheetModel new];
+    model1.title = @"100-300人";
+    SheetModel * model2 = [SheetModel new];
+    model2.title = @"300-400人";
+    SheetModel * model3 = [SheetModel new];
+    model3.title = @"500-600人";
+    model1.body = @"";
+    _ibStoreSizeSheetBottomView.dataArray = [[NSArray alloc] initWithObjects:model1,model2,model3, nil];
+    __weak typeof(self) weakSelf = self;
+    _ibStoreSizeSheetBottomView.handlerSheetCell = ^(SheetModel *model) {
+        weakSelf.ibSetStoreSizeLabel.text = model.title;
+    };
+    [_ibStoreSizeSheetBottomView addIntoView:[UIApplication sharedApplication].keyWindow];
+}
 - (IBAction)ibaBackAction:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "PatrolScoreViewController.h"
 @interface ArtTool : NSObject
 +(void)logArcToo:(UIView *)superView;
-+(UIViewController *)VCFromStoryBoard;
++(UIViewController *)VCFromStoryBoard:(PatrolScoreStyle)style;
 @end

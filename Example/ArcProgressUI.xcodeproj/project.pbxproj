@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05097DAF20DCF61F00D946BD /* libArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601F020DBCE2D000A435A /* libArtTool.a */; };
-		05097DB520DD176100D946BD /* ArcProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DF720DA00ED0073C616 /* ArcProgressView.m */; };
 		05097DB620DD176700D946BD /* ArcProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05F32DF920DA1CD40073C616 /* ArcProgressView.xib */; };
-		05097DB720DD17C900D946BD /* ArcTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F32DFE20DA4D410073C616 /* ArcTitleLabel.m */; };
 		053C239220DBBB090093B0A3 /* V33yinying@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238C20DBBB070093B0A3 /* V33yinying@2x.png */; };
 		053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238D20DBBB070093B0A3 /* V33yinying@3x.png */; };
 		053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 053C238E20DBBB080093B0A3 /* V33tishi@2x.png */; };
@@ -24,6 +22,8 @@
 		05D601F520DBCE2D000A435A /* ArtTool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05D601F220DBCE2D000A435A /* ArtTool.h */; };
 		05D601FD20DBD369000A435A /* ArcProgressUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 05D601FC20DBD368000A435A /* ArcProgressUI.bundle */; };
 		05D601FF20DBD80D000A435A /* libArcProgressUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601FE20DBD80D000A435A /* libArcProgressUI.a */; };
+		05E9AE0E20E08E5300A9D51E /* V33xuanzejiantou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E9AE0C20E08E5300A9D51E /* V33xuanzejiantou@2x.png */; };
+		05E9AE0F20E08E5300A9D51E /* V33xuanzejiantou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E9AE0D20E08E5300A9D51E /* V33xuanzejiantou@3x.png */; };
 		5C825B4D9AA7BA0095FDD8CE /* libPods-ArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B15210330EBD7A1EC03822EB /* libPods-ArtTool.a */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
@@ -85,6 +85,10 @@
 		05D601F320DBCE2D000A435A /* ArtTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtTool.m; sourceTree = "<group>"; };
 		05D601FC20DBD368000A435A /* ArcProgressUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcProgressUI.bundle; path = "../../../../Library/Developer/Xcode/DerivedData/ArcProgressUI-gbxkktgpxzoujsfqglvanczqflyt/Build/Products/Debug-iphoneos/ArcProgressUI/ArcProgressUI.bundle"; sourceTree = "<group>"; };
 		05D601FE20DBD80D000A435A /* libArcProgressUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libArcProgressUI.a; path = "../../../../../Library/Developer/Xcode/DerivedData/ArcProgressUI-gbxkktgpxzoujsfqglvanczqflyt/Build/Products/Debug-iphoneos/ArcProgressUI/libArcProgressUI.a"; sourceTree = "<group>"; };
+		05E9AE0C20E08E5300A9D51E /* V33xuanzejiantou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33xuanzejiantou@2x.png"; sourceTree = "<group>"; };
+		05E9AE0D20E08E5300A9D51E /* V33xuanzejiantou@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "V33xuanzejiantou@3x.png"; sourceTree = "<group>"; };
+		05E9AE1020E0943E00A9D51E /* SheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetView.h; sourceTree = "<group>"; };
+		05E9AE1120E0943E00A9D51E /* SheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetView.m; sourceTree = "<group>"; };
 		05F32DF620DA00ED0073C616 /* ArcProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcProgressView.h; sourceTree = "<group>"; };
 		05F32DF720DA00ED0073C616 /* ArcProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcProgressView.m; sourceTree = "<group>"; };
 		05F32DF920DA1CD40073C616 /* ArcProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArcProgressView.xib; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 				05F32DF720DA00ED0073C616 /* ArcProgressView.m */,
 				05F32DFD20DA4D410073C616 /* ArcTitleLabel.h */,
 				05F32DFE20DA4D410073C616 /* ArcTitleLabel.m */,
+				05E9AE1020E0943E00A9D51E /* SheetView.h */,
+				05E9AE1120E0943E00A9D51E /* SheetView.m */,
 				055C47E720DC92C600B0666D /* PatrolScoreViewController.h */,
 				055C47E820DC92C600B0666D /* PatrolScoreViewController.m */,
 			);
@@ -179,6 +185,8 @@
 		05F32DEE20DA00580073C616 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				05E9AE0C20E08E5300A9D51E /* V33xuanzejiantou@2x.png */,
+				05E9AE0D20E08E5300A9D51E /* V33xuanzejiantou@3x.png */,
 				05D601E720DBBE61000A435A /* V3baifanhui@2x.png */,
 				05D601E620DBBE5F000A435A /* V3baifanhui@3x.png */,
 				053C239020DBBB080093B0A3 /* V33fengxianlianghuabeijing@2x.png */,
@@ -408,7 +416,9 @@
 				053C239720DBBB090093B0A3 /* V33tishi@3x.png in Resources */,
 				05097DB620DD176700D946BD /* ArcProgressView.xib in Resources */,
 				053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */,
+				05E9AE0E20E08E5300A9D51E /* V33xuanzejiantou@2x.png in Resources */,
 				053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */,
+				05E9AE0F20E08E5300A9D51E /* V33xuanzejiantou@3x.png in Resources */,
 				053C239520DBBB090093B0A3 /* V33fengxianlianghuabeijing@3x.png in Resources */,
 				05D601E820DBBE61000A435A /* V3baifanhui@3x.png in Resources */,
 				053C239220DBBB090093B0A3 /* V33yinying@2x.png in Resources */,
@@ -485,9 +495,7 @@
 			files = (
 				6003F59E195388D20070C39A /* JHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JHViewController.m in Sources */,
-				05097DB520DD176100D946BD /* ArcProgressView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				05097DB720DD17C900D946BD /* ArcTitleLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

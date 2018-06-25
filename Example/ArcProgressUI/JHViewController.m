@@ -20,9 +20,24 @@
     [ArtTool logArcToo:self.view];
 }
 - (IBAction)ibaPushVCAction:(id)sender {
-    UIViewController *VC = [ArtTool VCFromStoryBoard];
+    UIViewController *VC = [ArtTool VCFromStoryBoard:StaticScoreStyle];
     [self presentViewController:VC animated:YES completion:nil];
 }
+
+- (IBAction)ibAddStaticScoreAction:(id)sender {
+    UIViewController *VC = [ArtTool VCFromStoryBoard:AddStaticScoreStyle];
+    [self presentViewController:VC animated:YES completion:nil];
+}
+- (IBAction)ibaDyScoreAction:(id)sender {
+    UIViewController *VC = [ArtTool VCFromStoryBoard:DynamicScoreStyle];
+    [self presentViewController:VC animated:YES completion:nil];
+}
+- (IBAction)ibDyRiskAction:(id)sender {
+    UIViewController *VC = [ArtTool VCFromStoryBoard:DynamicRiskScoreStyle];
+    [self presentViewController:VC animated:YES completion:nil];
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {

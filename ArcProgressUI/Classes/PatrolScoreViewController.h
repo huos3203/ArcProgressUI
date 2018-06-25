@@ -7,9 +7,17 @@
 //
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+typedef enum : NSUInteger {
+    AddStaticScoreStyle,
+    StaticScoreStyle,
+    DynamicScoreStyle,
+    DynamicRiskScoreStyle,
+} PatrolScoreStyle;
+
 @interface PatrolScoreViewController : UIViewController
 
-+(PatrolScoreViewController *)withStoryboard;
+@property (assign, nonatomic) PatrolScoreStyle scoreViewStyle;
++(PatrolScoreViewController *)withStoryboard:(PatrolScoreStyle)style;
 @end
 
 @interface ScoreCellView:UITableViewCell
