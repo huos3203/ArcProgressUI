@@ -61,7 +61,7 @@ void drawArcTrack()
     //1.4 设置颜色
     [[UIColor blackColor] set];
     //2.设置路径
-    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcW/2 - 60, -5*M_PI_4, M_PI_4, 0);
+    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcW/2 - 40, -4.7*M_PI_4, .7*M_PI_4, 0);
     //3.绘制
     CGContextStrokePath(ctx);
 }
@@ -84,9 +84,9 @@ void drawArcTrack()
     //2.设置路径
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(numberChange:) name:@"number" object:nil];
     
-    CGFloat end = -5*M_PI_4+(6*M_PI_4*_num/100);
-    
-    CGContextAddArc(ctx, _arcW/2 , _arcH/2, 80, -5*M_PI_4, end , 0);
+    CGFloat end = -4.7*M_PI_4+(5.7*M_PI_4*_num/100);
+//    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcW/2 - 40, -4.7*M_PI_4, .7*M_PI_4, 0);
+    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcH/2 - 40, -4.7*M_PI_4, end , 0);
     
     //3.绘制
     CGContextStrokePath(ctx);

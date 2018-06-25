@@ -46,7 +46,7 @@
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="静态风险因素量化" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAt-9L-5ab">
                                                         <rect key="frame" x="102" y="3.5" width="171" height="25.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -73,13 +73,13 @@
                                                                     <constraint firstAttribute="height" constant="58" id="v2k-BJ-wum"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="综合得分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCi-Wv-Ot6" customClass="ArcTitleLabel">
-                                                                <rect key="frame" x="146.5" y="149" width="82" height="24"/>
+                                                                <rect key="frame" x="146.5" y="157" width="82" height="24"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -89,18 +89,26 @@
                                                                         <real key="value" value="1"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
-                                                                        <real key="value" value="20"/>
+                                                                        <real key="value" value="18"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="动态风险得分 = 60 - 动态得分*60%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4f-jB-Gzg">
+                                                                <rect key="frame" x="82" y="184" width="211" height="16"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstItem="JCi-Wv-Ot6" firstAttribute="top" secondItem="YP2-Qn-iPh" secondAttribute="bottom" constant="20" id="2EP-9t-hbm"/>
+                                                            <constraint firstItem="JCi-Wv-Ot6" firstAttribute="top" secondItem="YP2-Qn-iPh" secondAttribute="bottom" constant="28" id="2EP-9t-hbm"/>
+                                                            <constraint firstAttribute="bottom" secondItem="D4f-jB-Gzg" secondAttribute="bottom" id="9aC-61-gdC"/>
                                                             <constraint firstAttribute="width" constant="375" id="C7Q-J0-y6I"/>
                                                             <constraint firstItem="YP2-Qn-iPh" firstAttribute="centerY" secondItem="JoD-nM-iIQ" secondAttribute="centerY" id="KYc-ZU-gAq"/>
+                                                            <constraint firstItem="D4f-jB-Gzg" firstAttribute="centerX" secondItem="JoD-nM-iIQ" secondAttribute="centerX" id="QYs-rN-DFw"/>
                                                             <constraint firstItem="YP2-Qn-iPh" firstAttribute="centerX" secondItem="JoD-nM-iIQ" secondAttribute="centerX" id="R3k-3z-uZn"/>
-                                                            <constraint firstAttribute="height" constant="200" id="Xab-Zp-q9o"/>
+                                                            <constraint firstAttribute="height" constant="250" id="Xab-Zp-q9o"/>
                                                             <constraint firstItem="JCi-Wv-Ot6" firstAttribute="centerX" secondItem="JoD-nM-iIQ" secondAttribute="centerX" id="YcH-vH-4dD"/>
                                                         </constraints>
                                                         <connections>
@@ -110,7 +118,7 @@
                                                 </subviews>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="203" id="Rq9-Gn-Dho"/>
+                                                    <constraint firstAttribute="height" constant="250" id="Rq9-Gn-Dho"/>
                                                     <constraint firstAttribute="trailing" secondItem="JoD-nM-iIQ" secondAttribute="trailing" id="W1t-kQ-9tF"/>
                                                     <constraint firstItem="JoD-nM-iIQ" firstAttribute="top" secondItem="Rua-HB-ajZ" secondAttribute="top" id="id1-CJ-j1e"/>
                                                     <constraint firstItem="JoD-nM-iIQ" firstAttribute="leading" secondItem="Rua-HB-ajZ" secondAttribute="leading" id="tso-fl-hbV"/>
