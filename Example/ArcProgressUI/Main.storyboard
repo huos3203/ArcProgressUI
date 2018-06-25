@@ -30,23 +30,20 @@
                                 <state key="normal" title="进入静态打分页面"/>
                                 <connections>
                                     <action selector="ibAddStaticScoreAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="Bc1-Ea-jvd"/>
-                                    <action selector="ibaPushVCAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="BtY-dS-uAo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zU-JR-5x2">
                                 <rect key="frame" x="126" y="460" width="123" height="30"/>
                                 <state key="normal" title="进入动态得分页面"/>
                                 <connections>
-                                    <action selector="ibDyRiskAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="NhS-cG-rvb"/>
-                                    <action selector="ibaPushVCAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="hW2-Az-Qks"/>
+                                    <action selector="ibaDyScoreAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="iDp-mS-zgm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSR-Dg-B2K">
                                 <rect key="frame" x="111" y="509" width="153" height="30"/>
                                 <state key="normal" title="进入动态风险得分页面"/>
                                 <connections>
-                                    <action selector="ibaDyScoreAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="Hl1-Ef-yEZ"/>
-                                    <action selector="ibaPushVCAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="aiB-5F-TYo"/>
+                                    <action selector="ibDyRiskAction:" destination="247-Lv-5V9" eventType="touchUpInside" id="G6a-1u-nbr"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -17,6 +17,7 @@
 
 @interface PatrolScoreViewController()
 @property (strong, nonatomic) IBOutlet UILabel *ibTitlelabel;
+@property (strong, nonatomic) IBOutlet UILabel *ibNoteRiskLabel;
 @property (strong, nonatomic) IBOutlet UILabel *ibStoreStyleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *ibStoreSizeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *ibReviewDateLabel;
@@ -55,17 +56,16 @@
     [super viewDidLoad];
     switch (_scoreViewStyle) {
             case AddStaticScoreStyle:
-            _ibScoreView.hidden = YES;
-            _ibStaticSizeView.hidden = NO;
-            _ibStoreSizeSelectImgView.hidden = NO;
+                _ibScoreView.hidden = YES;
+                _ibStoreSizeSelectImgView.hidden = NO;
             break;
             case StaticScoreStyle:
-            _ibScoreView.hidden = NO;
-            _ibStaticSizeView.hidden = NO;
             break;
             case DynamicScoreStyle:
-            _ibScoreView.hidden = NO;
-            _ibStaticSizeView.hidden = YES;
+                _ibStaticSizeView.hidden = YES;
+            break;
+            case DynamicRiskScoreStyle:
+                _ibNoteRiskLabel.hidden = NO;
             break;
         default:
             break;

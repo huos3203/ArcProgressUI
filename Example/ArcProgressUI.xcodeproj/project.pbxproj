@@ -24,6 +24,7 @@
 		05D601FF20DBD80D000A435A /* libArcProgressUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D601FE20DBD80D000A435A /* libArcProgressUI.a */; };
 		05E9AE0E20E08E5300A9D51E /* V33xuanzejiantou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E9AE0C20E08E5300A9D51E /* V33xuanzejiantou@2x.png */; };
 		05E9AE0F20E08E5300A9D51E /* V33xuanzejiantou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05E9AE0D20E08E5300A9D51E /* V33xuanzejiantou@3x.png */; };
+		05E9AE1320E0B18B00A9D51E /* PatrolScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* PatrolScore.storyboard */; };
 		5C825B4D9AA7BA0095FDD8CE /* libPods-ArtTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B15210330EBD7A1EC03822EB /* libPods-ArtTool.a */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
@@ -416,6 +417,7 @@
 				053C239720DBBB090093B0A3 /* V33tishi@3x.png in Resources */,
 				05097DB620DD176700D946BD /* ArcProgressView.xib in Resources */,
 				053C239320DBBB090093B0A3 /* V33yinying@3x.png in Resources */,
+				05E9AE1320E0B18B00A9D51E /* PatrolScore.storyboard in Resources */,
 				05E9AE0E20E08E5300A9D51E /* V33xuanzejiantou@2x.png in Resources */,
 				053C239420DBBB090093B0A3 /* V33tishi@2x.png in Resources */,
 				05E9AE0F20E08E5300A9D51E /* V33xuanzejiantou@3x.png in Resources */,

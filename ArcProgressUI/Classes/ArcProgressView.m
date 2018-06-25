@@ -12,7 +12,6 @@
 @interface ArcProgressView()
 
 @property (strong, nonatomic) IBOutlet ArcTitleLabel *ibTitleLabel;
-
 @end
 
 @implementation ArcProgressView
