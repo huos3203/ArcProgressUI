@@ -10,8 +10,10 @@ IB_DESIGNABLE
 @interface ArcProgressView : UIView
 
 +(ArcProgressView *)installTo:(UIView *)superView;
-
-@property(nonatomic,assign)int num;
+@property (strong, nonatomic) IBInspectable UIColor *trackPregessColor;
+@property (strong, nonatomic) IBInspectable UIColor *pregessColor;
+@property(nonatomic,assign)float curCount; //当前进度值
+@property(nonatomic,assign)float count;  //满格进度值
 @property(nonatomic,strong)IBOutlet UILabel *numLabel;
 @property(nonatomic,strong)NSTimer *timer;
 @end

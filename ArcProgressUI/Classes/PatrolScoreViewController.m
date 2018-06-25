@@ -8,6 +8,7 @@
 
 #import "PatrolScoreViewController.h"
 #import "SheetView.h"
+#import "ArcProgressView.h"
 @implementation ScoreCellView
 @end
 
@@ -25,6 +26,8 @@
 @property (strong, nonatomic) IBOutlet UIImageView *ibStoreSizeSelectImgView;
 
 @property (strong, nonatomic) IBOutlet UIView *ibScoreView;
+@property (strong, nonatomic) IBOutlet ArcProgressView *ibProgressView;
+
 @property (strong, nonatomic) IBOutlet UIView *ibStaticSizeView;
 
 
@@ -69,6 +72,10 @@
             break;
         default:
             break;
+    }
+    if (!_ibScoreView.hidden) {
+        _ibProgressView.curCount = 50.5;
+        _ibProgressView.count = 70.8;
     }
     _ibTitlelabel.text = @"测试标题内容";
     _ibStoreStyleLabel.text = @"娱乐服务";

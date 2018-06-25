@@ -10,7 +10,7 @@
 #import "ArcTitleLabel.h"
 
 @interface ArcProgressView()
-
+@property (assign, nonatomic) float num;
 @property (strong, nonatomic) IBOutlet ArcTitleLabel *ibTitleLabel;
 @end
 
@@ -19,19 +19,21 @@
 #pragma mark - def
 CGFloat _arcW;
 CGFloat _arcH;
+UIColor *_trackColor;
 #pragma mark - override
 - (void)drawRect:(CGRect)rect {
     _arcW = self.frame.size.width;
     _arcH = self.frame.size.height;
     drawArcTrack();  //    仪表盘底部
     [self drawArcProgress]; //    仪表盘进度
-    if (!_timer) {
-        _timer = [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(change) userInfo:nil repeats:YES];
-    }
 }
 -(void)awakeFromNib
 {
     [super awakeFromNib];
+    _trackColor = _trackPregessColor;
+    if (!_timer) {
+        _timer = [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(change) userInfo:nil repeats:YES];
+    }
 }
 #pragma mark - API
 +(ArcProgressView *)installTo:(UIView *)superView{
@@ -41,6 +43,8 @@ CGFloat _arcH;
     NSArray *viewArr = [bundle loadNibNamed:@"ArcProgressView" owner:nil options:nil];
     ArcProgressView *arcView = viewArr.lastObject;
     arcView.numLabel.text = @"numLabelnumLabel";
+    arcView.curCount = 50;
+    arcView.count = 70;
     [superView addSubview:arcView];
     return arcView;
 }
@@ -58,7 +62,7 @@ void drawArcTrack()
     CGFloat length[] = {4,8};
     CGContextSetLineDash(ctx, 0, length, 2);
     //1.4 设置颜色
-    [[UIColor blackColor] set];
+    [_trackColor set];
     //2.设置路径
     CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcW/2 - 40, -4.7*M_PI_4, .7*M_PI_4, 0);
     //3.绘制
@@ -78,14 +82,13 @@ void drawArcTrack()
     CGFloat length[] = {4,8};
     CGContextSetLineDash(ctx, 0, length, 2);
     //1.4 设置颜色
-    [[UIColor whiteColor] set];
+    [_pregessColor set];
     
     //2.设置路径
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(numberChange:) name:@"number" object:nil];
     
-    CGFloat end = -4.7*M_PI_4+(5.7*M_PI_4*_num/100);
-//    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcW/2 - 40, -4.7*M_PI_4, .7*M_PI_4, 0);
-    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcH/2 - 40, -4.7*M_PI_4, end , 0);
+    CGFloat end = -4.7*M_PI_4+(5.7*M_PI_4*_num/_count);
+    CGContextAddArc(ctx, _arcW/2 , _arcH/2, _arcW/2 - 40, -4.7*M_PI_4, end , 0);
     
     //3.绘制
     CGContextStrokePath(ctx);
@@ -97,19 +100,21 @@ void drawArcTrack()
 -(void)numberChange:(NSNotification*)text
 {
     _num = [text.userInfo[@"num"] intValue];
-    
     [self setNeedsDisplay];
 }
 
 -(void)change
 {
     _num +=1;
-    
-    if (_num > 100) {
-        _num = 0;
+    if (_num > _curCount - 1) {
+        //停止走秒
+        _numLabel.text = [NSString stringWithFormat:@"%.2f",_curCount];
+        [[NSNotificationCenter defaultCenter] removeObserver:self name:@"number" object:nil];
+        [_timer invalidate];
+        _timer = nil;
     }
     
-    _numLabel.text = [NSString stringWithFormat:@"%d",_num];
+    _numLabel.text = [NSString stringWithFormat:@"%.2f",_num];
     
     NSDictionary *dic = [[NSDictionary alloc]initWithObjectsAndKeys:_numLabel.text,@"num", nil];
     
@@ -120,7 +125,7 @@ void drawArcTrack()
     
 }
 #pragma mark - getter / setter
--(void)setNum:(int)num
+-(void)setNum:(float)num
 {
     _num = num;
 }
