@@ -59,7 +59,7 @@ void drawArcTrack()
     //1.2 设置线条的起始点样式
     CGContextSetLineCap(ctx,kCGLineCapButt);
     //1.3  虚实切换 ，实线5虚线10
-    CGFloat length[] = {4,8};
+    CGFloat length[] = {2,3};
     CGContextSetLineDash(ctx, 0, length, 2);
     //1.4 设置颜色
     [_trackColor set];
@@ -79,7 +79,7 @@ void drawArcTrack()
     //1.2 设置线条的起始点样式
     CGContextSetLineCap(ctx,kCGLineCapButt);
     //1.3  虚实切换 ，实线5虚线10
-    CGFloat length[] = {4,8};
+    CGFloat length[] = {2,3};
     CGContextSetLineDash(ctx, 0, length, 2);
     //1.4 设置颜色
     [_pregessColor set];
