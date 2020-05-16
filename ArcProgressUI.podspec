@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ArcProgressUI'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = '组件方式实现弧形表盘仪UI，快速复用集成'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'huo3203@hotmail.com' => '724987481' }
-  s.source           = { :git => 'https://github.com/huos3203/ArcProgressUI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/it-boyer/ArcProgressUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
